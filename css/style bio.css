@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+.naslovna{
+	height: 100vh;
+	width: 100%;
+	background: #101010;
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.naslovna .bogdan{
+	color: #B4D2E7;
+	font-size: 35px;
+}
+
+span{
+	color: #D2AF83;
+}
+
+
+.sadržaj ul{
+	padding-top: 20px;
+}
+
+.sadržaj ul li{
+
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+.sadržaj ul li a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 35px;
+}
+.sadržaj ul li a:hover{
+	color: #D2AF83;
+	transition: .4s;
+}
+
+.sadržaj{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	max-width: 50%;
+	transform: translateY(-50%);
+}
+.sadržaj a{
+	color: #D2AF83;
+	text-decoration: none;
+	font-weight: bold;
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+h4{
+	color: #B4D2E7;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+p{	
+	color: #B4D2E7;
+	letter-spacing: 2px;
+	font-size: 18px;
+	padding-bottom: 3%;
+}
+.naslovna img{
+	position: absolute;
+	top: 20%;
+	right: 10%;
+	height: 800px;
+	width: auto;
+}
+
+.donji{
+	background: #2d2c30;
+	width: 100%;
+	left: 8%;
+	padding: 100px 0px;
+}
+.naslov h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin-left: 8%;
+	text-align: start;
+}
+table{
+	border: 2px solid white;
+	padding: 10px;
+	color: #B4D2E7;
+	letter-spacing: 2px;
+	font-size: 18px;
+	display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 10px;
+}
+
+
+h5{
+	color: black;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+.line-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}

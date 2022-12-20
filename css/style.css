@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+.naslovna{
+	height: 80vh;
+	width: 100%;
+	background: #101010;
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.naslovna .bogdan{
+	color: #B4D2E7;
+	font-size: 35px;
+}
+
+span{
+	color: #D2AF83;
+}
+.sadržaj ul li{
+
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+.sadržaj ul li a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+}
+.sadržaj ul li a:hover{
+	color: #B4D2E7;
+	transition: .4s;
+}
+
+.sadržaj{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+h4{
+	color: #B4D2E7;
+	letter-spacing: 2px;
+	font-size: 2rem;
+}
+.naslovna img{
+	position: absolute;
+	top: 20%;
+	right: 10%;
+}
+
+
+
+.donji{
+	background: #2d2c30;
+	width: 100%;
+	left: 8%;
+	padding: 100px 0px;
+}
+.naslov h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin-left: 8%;
+	text-align: start;
+}
+.kutija{
+	margin-left: 7%;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	min-height: 100px;
+}
+.kartica{
+	height: 300px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #B4D2E7;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+h5{
+	color: black;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.kartica ul{
+	list-style: none;
+}
+.kartica ul li{
+	color: black;
+	font-size: 20px;
+	line-height: 27px;
+	margin-bottom: 2px;
+	text-decoration: none;
+}
+.kartica ul li a.teenpe{
+	text-decoration: none;
+	color: black;
+}
+.kartica ul li a.teenpe:hover{
+	text-decoration: none;
+	color: #D2AF83;
+	text-shadow: #fff 0px 0px 6px;
+	text-shadow: #101010 1px 1px;
+}
+
+.line-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+svg{
+    display: inline-block;
+    height: 100%;
+}
